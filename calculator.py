@@ -1,3 +1,7 @@
+# DESKTOP GIT PATH  cd /d/projects/programming/projects/python/01_basic_calculator/main
+# LAPTOP GIT PATH   cd c/users/e/projects/programming/projects/python/01_basic_calculator/main
+
+
 def result(total):
     if total == 42:
         print("Your total is {}\nSo long, and thanks for all the fish!\n".format(total))
