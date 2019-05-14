@@ -26,10 +26,10 @@ while True:
     print("Welcome to the Simple Calculator!\n")
 
     num1 = int(input("Please enter your first number: "))
-    print("Rad!\n")
+    print("\nRad!\n\n")
 
     num2 = int(input("Please enter your second number: "))
-    print("Dope!\n")
+    print("\nDope!\n\n")
 
     # May add more error throws later to catch any non-number inputs for num1 and num2
 
@@ -61,7 +61,7 @@ while True:
             total = num1 // num2
             result(total)
         elif operand == "8":
-            print("Uh...okay, but that'll cost extra.\n", "Your total is 69, I guess.\n\n")
+            print("Uh...okay, but that'll cost extra.\n" + "Your total is 69, I guess.\n\n")
         elif operand == "9":
             print("Y'all come back now, hear?\n")
             break
