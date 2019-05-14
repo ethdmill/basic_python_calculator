@@ -35,34 +35,34 @@ while True:
 
 
     print("What would you like to do with these numbers?")
-    operand = input("1: Add ( + )\n2: Subtract ( - )\n3: Multiply ( * )\n4: Divide ( / )\n5: Power Up ( ^ )\n\
+    operator = input("1: Add ( + )\n2: Subtract ( - )\n3: Multiply ( * )\n4: Divide ( / )\n5: Power Up ( ^ )\n\
 6: Find the remainder ( % )\n7: Divide, but round down ( // )\n8: Something sexy ( ? )\n9: Quit\n\n")
 
     try:
-        if operand == "1":
+        if operator == "1":
             total = num1 + num2
             result(total)
-        elif operand == "2":
+        elif operator == "2":
             total = num1 - num2
             result(total)
-        elif operand == "3":
+        elif operator == "3":
             total = num1 * num2
             result(total)
-        elif operand == "4":
+        elif operator == "4":
             total = num1 / num2
             result(total)
-        elif operand == "5":
+        elif operator == "5":
             total = num1 ** num2
             result(total)
-        elif operand == "6":
+        elif operator == "6":
             total = num1 % num2
             result(total)
-        elif operand == "7":
+        elif operator == "7":
             total = num1 // num2
             result(total)
-        elif operand == "8":
+        elif operator == "8":
             print("Uh...okay, but that'll cost extra.\n" + "Your total is 69, I guess.\n\n")
-        elif operand == "9":
+        elif operator == "9":
             print("Y'all come back now, hear?\n")
             break
         else:
